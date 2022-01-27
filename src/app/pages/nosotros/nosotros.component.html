@@ -1,0 +1,55 @@
+<div class="container-fluid m-0 mt-0 mt-lg-5 pb-5">
+    <section id="section" class="position-relative pb-5">
+
+        <app-tirolina></app-tirolina>
+    
+        <div class="content position-relative p-4 p-lg-0">
+            <!-- /* TARGET */ -->
+            <div class="object mt-5" *ngFor="let item of nosotros; index as i ">
+                <img src="./assets/img/nosotros/box.png" alt="" class="box">
+                <div class="title">
+                    <img 
+                    src="./assets/img/nosotros/{{ item.title }}" 
+                    alt=""
+                    *ngIf="i < 2"
+                    style="max-width: 300px;"
+                    >
+                    <img 
+                    src="./assets/img/nosotros/{{ item.title }}" 
+                    alt=""
+                    *ngIf="i >= 2"
+                    >
+                </div>
+                <div class="body">
+                    <img src="./assets/img/nosotros/{{ item.img1 }}" alt="" class="img transition">
+                    <img src="./assets/img/nosotros/{{ item.img2 }}" alt="" class="img2">
+                    <div class="bg-blue"></div>
+                    <div class="text">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="first">
+                                    <li *ngFor="let services of item.items; index as j">
+                                        <div *ngIf="j+1 <= 4" class="first">
+                                            <div class="description" style="margin-top:15px; position:relative;">
+                                                <p>{{services.title}}</p>
+                                                <strong>{{services.text}}</strong>
+                                            </div>
+                                            <img src="./assets/img/nosotros/{{ services.icon }}" class="icon" alt="">
+                                        </div>
+                                        <div *ngIf="j+1 > 4" class="second">
+                                            <div class="description" style="margin-top:15px; position:relative;">
+                                                <p>{{services.title}}</p>
+                                                <strong>{{services.text}}</strong>
+                                            </div>
+                                            <img src="./assets/img/nosotros/{{ services.icon }}" class="icon" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

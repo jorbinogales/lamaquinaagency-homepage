@@ -1,0 +1,88 @@
+.container-fluid{
+    display: block;
+    padding-bottom: 300px !important;
+}
+
+#section .row{
+    max-width: 1000px;
+    margin:auto;
+    margin-top:200px;
+}
+
+
+.title{
+    display: block;
+    position: relative;
+    max-width: 600px;
+    background-color: var(--bg-white);
+    margin:auto;
+    z-index: 20;
+    top:50px;
+}
+
+.target strong{
+    display:block;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.target span{
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.target h5{
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.target p{
+    margin-top: 25px;
+    font-family: 'Poppins';
+}
+
+.line{
+    max-width: 800px;
+    margin:auto;
+    left:0px;
+    right:0px;
+}
+
+.box{
+    position: relative;
+}
+
+.box iframe{
+    position: relative;
+    z-index: 20;
+}
+
+.box-yellow{
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 400px;
+    background-color: var(--bg-yello);
+    position: absolute;
+    top:100px;
+}
+
+.box-yellow-right{
+    right: -100px;
+}
+
+.box-yellow-left{
+    left:-100px;
+}
+
+@media only screen and (max-width: 968px){
+    strong,
+    span,
+    h5,
+    p{
+        position: relative;
+        z-index: 150;
+    }
+}

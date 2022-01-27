@@ -1,0 +1,58 @@
+<div class="container-fluid p-0 m-0 mt-5">
+    <section id="section" class="position-relative">
+        <app-breadcrumb [menu]="menu"></app-breadcrumb>
+        <app-tirolina></app-tirolina>
+        <div class="content position-relative">
+            <img src="./../../../../assets/img/portafolio/text_animacion.png.png" alt="" class="title mt-5">
+            <span class="line mt-5"></span>
+            
+        </div>
+
+        <div class="content position-relative">
+            <div class="grid" *ngFor="let video of videos; index as i">
+                <div class="row target p-4 p-lg-0" *ngIf="i % 2 != 0">
+                    <div class="col-12 col-lg-8 box">
+                        <div class="video">
+                            <iframe 
+                            width="100%" 
+                            height="400"
+                            [src]="video.url | safe"
+                            frameborder="0" 
+                            allowfullscreen>
+                            </iframe>
+                            <div class="box-yellow box-yellow-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                       <strong>{{ video.company }}</strong>
+                       <span>{{ video.location }}</span>
+                       <h5>{{ video.title }}</h5>
+                       <p>{{ video.copy}}</p>
+                    </div>
+                </div>
+
+                <!-- REVERSE  -->
+                <div class="row target p-4 p-lg-0" *ngIf="i % 2 == 0">
+                    <div class="col-12 col-lg-4">
+                        <strong>{{ video.company }}</strong>
+                        <span>{{ video.location }}</span>
+                        <h5>{{ video.title }}</h5>
+                        <p>{{ video.copy}}</p>
+                    </div>
+                    <div class="col-12 col-lg-8 box">
+                        <div class="video">
+                            <iframe 
+                            width="100%" 
+                            height="400"
+                            [src]="video.url | safe"
+                            frameborder="0" 
+                            allowfullscreen>
+                            </iframe>
+                            <div class="box-yellow box-yellow-right"></div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

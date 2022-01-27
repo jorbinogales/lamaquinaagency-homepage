@@ -1,0 +1,26 @@
+.breadcrumb{
+    position:absolute;
+    left:100px;
+    z-index: 50;
+}
+
+.breadcrumb .breadcrumb-item{
+    color: var(--bg-black) !important;
+    font-weight: bold;
+}
+
+.breadcrumb .breadcrumb-item a{
+    font-weight: bold;
+    color: var(--bg-black) !important;
+}
+
+.breadcrumb .breadcrumb-item a.active{
+    font-weight: bold;
+    color: var(--bg-yello) !important;
+}
+
+@media only screen and (max-width:968px){
+    .breadcrumb{
+        left:15px;
+    }
+}

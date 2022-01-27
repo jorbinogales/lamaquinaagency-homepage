@@ -1,0 +1,283 @@
+[
+    {
+        "business":"Nacional de Alimentos",
+        "brand": "RIFEL",
+        "year": "2021",
+        "description": "Rifel es una marca nacional de panadería y galletería Industrial dirigida a niños y jóvenes de Venezuela Fundada en 2007. En 2021 desarrollamos un proyecto de impulso 360 para la marca que incluyó:  Diseño de Empaques, diseño de catálogo de productos, diseño de material POP ygigantografía, campaña de marketing y social media.",
+        "logo": "rifel/rifel-logo.png",
+        "wallpapper": "rifel/rifel-wallpapper.png",
+        "cover": "rifel/marco.svg",
+        "histories": "rifel/stories.gif",
+        "projects": [
+            {
+                "title": "DISEÑO DE CATÁLOGO DE PRODUCTOS",
+                "row": [
+                        {
+                            "grid": [
+                                "rifel/project1-image1.png"
+                            ],
+                            "col": "col-8"
+                        },
+                        {
+                            "grid": [
+                                "rifel/project1-image2.png",
+                                "rifel/project1-image3.png"
+                            ],
+                            "col": "col-4"
+                        }
+                ]
+            },
+            {
+                "title": "DISEÑO DE GIGANTOGRAFÍA",
+                "row": [
+                        {
+                            "grid": [
+                                "rifel/project3-image1.png"
+                            ],
+                            "col": "col-8"
+                        },
+                        {
+                            "grid": [
+                                "rifel/project3-image2.png",
+                                "rifel/project3-image3.png",
+                                "rifel/project3-image4.png"
+                            ],
+                            "col": "col-4"
+                        }
+                ]
+            },
+            {
+                "title": "DISEÑO DE MATERIAL POP",
+                "row": [
+                        {
+                            "grid": [
+                                "rifel/project4-image1.png",
+                                "rifel/project4-image2.png"
+                            ],
+                            "col": "col-3"
+                        },
+                        {
+                            "grid": [
+                                "rifel/project4-image3.png"
+                            ],
+                            "col": "col-5"
+                        },
+                        {
+                            "grid": [
+                                "rifel/project4-image4.png",
+                                "rifel/project4-image5.png",
+                                "rifel/project4-image6.png",
+                                "rifel/project4-image7.png"
+                            ],
+                            "col": "col-4"
+                        }
+                ]
+            }
+        ],
+        "url": "rifel",
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/branding/rifel/carousel1.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/carousel2.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/carousel3.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/carousel4.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/carousel5.png"
+            }
+        ]
+    },
+    {
+        "business":"Ars Barquisimeto",
+        "brand": "SKY LUBRICANTES",
+        "year": "2020 / 2021",
+        "description": "Sky lubricantes es una marca nacional de producción y comercialización de productos de alta calidad para el sector industrial y automotriz venezolano fundada en 2004. En el 2020 desarrollamos de la mano de Ars Barquisimeto un proyecto de rebranding para esta marca que incluyó: Diseño de etiquetas y envases, diseño de catálogo de productos, desarrollo de web corporativa y de ecommerce, diseño de material POP, campaña de marketing y social media.",
+        "logo": "sky/sky-logo.png",
+        "wallpapper": "sky/sky-wallpapper.png",
+        "cover": "sky/marco.svg",
+        "projects": [
+            {
+                "title": "MODELADO 3D/DISEÑO DE ETIQUETAS Y ENVASES ",
+                "row": [
+                        {
+                            "grid": [
+                                "sky/project1-image1.png",
+                                "sky/project1-image3.png"
+                            ],
+                            "col": "col-6"
+                        },
+                        {
+                            "grid": [
+                                "sky/project1-image2.png",
+                                "sky/project1-image4.png"
+                            ],
+                            "col": "col-6"
+                        }
+                ]
+            },
+            {
+                "title": "DISEÑO DE CATÁLOGO",
+                "row": [
+                        {
+                            "grid": [
+                                "sky/project2-image1.png"
+                            ],
+                            "col": "col-6"
+                        },
+                        {
+                            "grid": [
+                                "sky/project2-image2.png"
+                            ],
+                            "col": "col-6"
+                        }
+                ]
+            },
+            {
+                "title": "DISEÑO DE MATERIAL POP",
+                "row": [
+                        {
+                            "grid": [
+                                "sky/project3-image1.png",
+                                "sky/project3-image2.png"
+                            ],
+                            "col": "col-4"
+                        },
+                        {
+                            "grid": [
+                                "sky/project3-image3.png"
+                            ],
+                            "col": "col-8"
+                        }
+                ]
+            },
+            {
+                "title": "DESARROLLO WEB",
+                "row": [
+                        {
+                            "grid": [
+                                "sky/project4-image1.png"
+                            ],
+                            "col": "col-6"
+                        },
+                        {
+                            "grid": [
+                                "sky/project4-image2.png"
+                            ],
+                            "col": "col-6"
+                        }
+                ]
+            },
+            {
+                "title": "DESARROLLO DE ECOMMERCE",
+                "row": [
+                        {
+                            "grid": [
+                                "sky/project5-image1.png"
+                            ],
+                            "col": "col-5"
+                        },
+                        {
+                            "grid": [
+                                "sky/project5-image2.png"
+                            ],
+                            "col": "col-7"
+                        }
+                ]
+            }
+        ],
+        "url": "sky",
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/branding/sky/carousel1.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/carousel2.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/carousel3.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/carousel4.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/carousel5.png"
+            }
+        ]
+    },
+    {
+        
+        "business":"Keyworks",
+        "brand": "KEYWORKS",
+        "year": "2019",
+        "description": "KeyWorks es un coworking spaces ubicado en el corazón de la ciudad de Barquisimeto. Trabajamos con esta marca desde el momento cero, el proyecto incluyó: creación de naming; logotipo e identidad gráfica, concepto de negocio y branding, realizamos renders 3D de los espacios, participamos con los arquitectos en la decoración de interiores: diseñamos el mobiliario, textura de las paredes, parabanes, lockers y señalética del espacio. Actualmente, trabajamos en la creación y gestión de campañas para redes sociales del coworking.",
+        "logo": "keyworks/keyworks-logo.png",
+        "cover": "keyworks/marco.svg",
+        "wallpapper": "keyworks/keyworks-wallpapper.png",
+        "projects": [
+            {
+                "title": "LOGOTIPO E IDENTIDAD GRÁFICA",
+                "row": [
+                        {
+                            "grid": [
+                                "keyworks/project1-image1.png",
+                                "keyworks/project1-image2.png"
+                            ],
+                            "col": "col-5"
+                        },
+                        {
+                            "grid": [
+                                "keyworks/project1-image3.png"
+                            ],
+                            "col": "col-7"
+                        }
+                ]
+            },
+            {
+                "title": "LOGOTIPO E IDENTIDAD GRÁFICA",
+                "row": [
+                        {
+                            "grid": [
+                                "keyworks/project2-image1.png",
+                                "keyworks/project2-image2.png",
+                                "keyworks/project2-image3.png"
+                            ],
+                            "col": "col-6"
+                        },
+                        {
+                            "grid": [
+                                "keyworks/project2-image4.png",
+                                "keyworks/project2-image5.png",
+                                "keyworks/project2-image6.png"
+                            ],
+                            "col": "col-6"
+                        }
+                ],
+                "height": "700px"
+            }
+        ],
+        "url": "keyworks",
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/branding/keyworks/carousel1.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/carousel2.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/carousel3.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/carousel4.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/carousel5.png"
+            }
+        ]
+    }
+]

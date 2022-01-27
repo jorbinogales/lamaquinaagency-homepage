@@ -1,0 +1,100 @@
+[
+    {
+        "type":"carousel",
+        "marca": "vivaldi",
+        "sector": "Alimentos y Bebidas",
+        "pais": "Venezuela / Año: 2019",
+        "carousel": [
+            "vivaldi1.png",
+            "vivaldi2.png",
+            "vivaldi3.png"
+        ]
+    },
+    {
+        "type":"grid-right",
+        "marca": "Vitalden",
+        "sector": "Salud",
+        "pais": "Venezuela / Año: 2019",
+        "img1":"vitalden1.png",
+        "img2": "vitalden2.png"
+    },
+    {
+        "type":"carousel",
+        "marca": "Phill Clean",
+        "sector": "Hogar",
+        "pais": "Venezuela / Año: 2019",
+        "carousel": [
+            "philp1.png",
+            "philp2.png",
+            "philp3.png"
+        ]
+    },
+    {
+        "type":"grid-left",
+        "marca": "Provolto",
+        "sector": "Tecnología",
+        "pais": "Venezuela / Año: 2019",
+        "img1":"provolto1.png",
+        "img2":"provolto2.png"
+    },
+    {
+        "type":"carousel",
+        "marca": "Sky Lubricantes",
+        "sector": "Transporte",
+        "pais": "Miami / Año: 2020",
+        "carousel": [
+            "sky1.png",
+            "sky2.png",
+            "sky3.png"
+        ]
+    },
+    {
+        "type":"grid-right-carousel",
+        "marca": "DaCapri",
+        "sector": "Alimentos y bebidas",
+        "pais": "Venezulea / Año: 2021",
+        "carousel" : [
+            "dacapri-slider-1.png",
+            "dacapri-slider-2.png",
+            "dacapri-slider-3.png",
+            "dacapri-slider-4.png",
+            "dacapri-slider-5.png"
+        ],
+        "img" : "dacapri2.png"
+    },
+    {
+        "type":"carousel",
+        "marca": "A medical",
+        "sector": "Salud",
+        "pais": "Venezulea / Año: 2020",
+        "carousel" : [
+            "amedical1.png",
+            "amedical2.png",
+            "amedical3.png",
+            "amedical4.png"
+        ]
+    },
+    {
+        "type":"grid-left",
+        "marca": "Bondy",
+        "sector": "Alimentos y Bebidas",
+        "pais": "Venezulea / Año: 2021",
+        "img1" : "bondy1.png",
+        "img2" : "bondy2.png"
+    },
+    {
+        "type":"only",
+        "marca": "Catalpa",
+        "sector": "Alimentos y Bebidas",
+        "pais": "Venezulea / Año: 2021",
+        "img" : "catalpa1.png"
+    },
+    {
+        "type":"grid-right",
+        "marca": "Corporación Bel",
+        "sector": "Alimentos y bebidas",
+        "pais": "Venezuela / Año: 2020",
+        "img1" : "bel1.png",
+        "img2" : "bel2.png"
+    }
+]

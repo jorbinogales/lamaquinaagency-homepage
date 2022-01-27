@@ -1,0 +1,145 @@
+[
+    {
+        "title": "comunicacion_text.png",
+        "img1":"comunicacion_img_1.jpg",
+        "img2": "comunicacion_img_2.jpg",
+        "items": [
+            {
+                "title": "BRANDING",
+                "text": "& DISEÑO",
+                "icon": "comunicacion_1.png"
+            },
+            {
+                "title": "VIDEO RENDER",
+                "text": "& ANIMACIÓN 3D",
+                "icon": "comunicacion_2.png"
+            },
+            {
+                "title": "PACKAGING",
+                "text": "& VISUAL MERCHANDISING",
+                "icon": "comunicacion_3.png"
+            },
+            {
+                "title": "FOTOGRAFÍA DE PRODUCTOS",
+                "text": "& GASTRONOMÍA",
+                "icon": "comunicacion_4.png"
+            }
+        ]
+    },
+    {
+        "title": "digital_text.png",
+        "img1":"digital_img_1.jpg",
+        "img2": "digital_img_2.jpg",
+        "items": [
+            {
+                "title": "SOCIAL MEDIA MANAGEMENT",
+                "text": "& DIGITAL CONTENT",
+                "icon": "digital_1.png"
+            },
+            {
+                "title": "GOOGLE &",
+                "text": "YOUTUBE ADS",
+                "icon": "digital_2.png"
+            },
+            {
+                "title": "INSTAGRAM & ",
+                "text": "FACEBOOK ADS",
+                "icon": "digital_3.png"
+            },
+            {
+                "title": "ESTRATEGIA DIGITAL",
+                "text": "E INBOUND MARKETING",
+                "icon": "digital_4.png"
+            },
+            {
+                "title": "CROSS BRANDING",
+                "text": "& INFLUENCING",
+                "icon": "digital_5.png"
+            },
+            {
+                "title": "WEB DESING",
+                "text": "EMPRESARIAL",
+                "icon": "digital_6.png"
+            },
+            {
+                "title": "ECOMMERCE",
+                "text": "TIENDAS ONLINE",
+                "icon": "digital_7.png"
+            },
+            {
+                "title": "DESARROLLO",
+                "text": "DE APPS ",
+                "icon": "digital_8.png"
+            },
+            {
+                "title": "LANDING",
+                "text": "PAGES",
+                "icon": "digital_9.png"
+            }
+        ]
+    },
+    {
+        "title": "convencional_text.png",
+        "img1":"digital_img_2.jpg",
+        "img2": "digital_img_1.jpg",
+        "items": [
+            {
+                "title": "PUBLICIDAD",
+                "text": "EXTERIOR",
+                "icon": "convencional_1.png"
+            },
+            {
+                "title": "CAMPAÑAS",
+                "text": "RADIO Y TV",
+                "icon": "convencional_2.png"
+            },
+            {
+                "title": "IDENTIDAD",
+                "text": "NEGOCIOS",
+                "icon": "convencional_3.png"
+            },
+            {
+                "title": "COPYWRITING",
+                "text": "& CREATIVIDAD",
+                "icon": "convencional_4.png"
+            }
+        ]
+    },
+    {
+        "title": "telemarketing_text.png",
+        "img1":"telemarketing_img_1.jpg",
+        "img2": "telemarketing_img_2.jpg",
+        "items": [
+            {
+                "title": "CALL Y WHATSAPP",
+                "text": "CONTAC.",
+                "icon": "telemarketing_1.png"
+            },
+            {
+                "title": "SERVICIO ATENCIÓN",
+                "text": "AL CLIENTE",
+                "icon": "telemarketing_2.png"
+            },
+            {
+                "title": "SERVICIO DE",
+                "text": "SOPORTE TÉCNICO",
+                "icon": "telemarketing_3.png"
+            },
+            {
+                "title": "CAMPAÑA DE",
+                "text": "VENTAS",
+                "icon": "telemarketing_4.png"
+            },
+            {
+                "title": "CONSTRUCCIÓN DE",
+                "text": "BASES DE DATOS",
+                "icon": "telemarketing_5.png"
+            },
+            {
+                "title": "E-MAIL",
+                "text": "MARKETING",
+                "icon": "telemarketing_6.png"
+            }
+        ]
+    }
+]

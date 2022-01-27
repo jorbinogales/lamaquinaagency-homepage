@@ -1,0 +1,30 @@
+<div class="container-fluid p-0 m-0 mt-5">
+    <section id="logofolio" class="position-relative">
+        <app-tirolina></app-tirolina>
+        <div class="content position-relative">
+            <app-breadcrumb [menu]="menu"></app-breadcrumb>
+            <img src="./../../../../assets/img/portafolio/text_logofolio.png" alt="" class="title mt-5">
+            <span class="line mt-5"></span>
+            <div class="grid">
+                <div class="row p-4 p-lg-0">
+                    <div class="col-12" *ngFor="let logo of logofolios; index as i">
+                        <div class="target p-5">
+                            <div class="img">
+                                <img src="./../../../../assets/img/logofolio/{{ logo.logo }}-dark.png" alt="" class="logo-white">
+                                <img src="./../../../../assets/img/logofolio/{{ logo.logo }}.png" alt="" class="logo-color">
+                            </div>
+                            <div class="text">
+                                <h3 class="name">{{ logo.name }}</h3>
+                                <p class="date">{{ logo.fecha }}</p>
+                                <p class="description">{{ logo.descrption }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <app-breadcrumb [menu]="menu"></app-breadcrumb>
+        </div>
+
+
+    </section>
+</div>

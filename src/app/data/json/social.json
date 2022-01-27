@@ -1,0 +1,124 @@
+[
+    {
+        "img": "social1.png",
+        "text": "Enfibrate con Fibrahogar fue una campaña nacional de promoción 360 para el lanzamiento del proyecto fibra óptica de la Corporación Telemic C.A y su marca Inter.",
+        "marca": "Inter",
+        "proyecto": "Campaña de lanzamiento.",
+        "fecha": "2021" 
+    },
+     {
+        "img": "social2.png",
+        "text": "La gestión en medios digitales de la marca Purísima inició desde la creación de la cuenta y su comunidad, manejando sus diferentes campañas, estrategias de posicionamiento, alianzas con influencers, crossbrandings, producciones fotográficas y audiovisuales.",
+        "marca": "Purísima",
+        "proyecto": "Social content.",
+        "fecha": "2018 - 2021",
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/social/purisima/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/purisima/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/purisima/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/purisima/history4.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/purisima/history5.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/purisima/history6.png"
+            }
+        ]
+        
+    },
+    {
+        "img": "social3.png",
+        "text": "En la actualidad Rifel es una de las marcas más dinámicas de Venezuela en medios digitales, para la cual se han desarrollado diferentes estrategias de posicionamiento, como influencers, micro influencers, cobrandings, producciones audiovisuales y fotográficas, campañas de Instagram y Youtube ADS",
+        "marca": "Rifel",
+        "proyecto": "Social content.",
+        "fecha": "2018 - 2021" ,
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/social/rifel/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/rifel/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/rifel/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/rifel/history4.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/rifel/history5.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/rifel/history6.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/rifel/history7.png"
+            }
+        ]
+    },
+    {
+        "img": "social4.png",
+        "text": "La gestión en medios digitales de la marca Nutricell ha tenido como objetivo principal el reconocimiento de marca y las ventas online de sus productos, por ello sus diferentes campañas han sido enmarcadas en el inbound marketing. ",
+        "marca": "Nutricell",
+        "proyecto": "Social content.",
+        "fecha": "2018 - 2021",
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/social/nutricel/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/nutricel/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/nutricel/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/nutricel/history4.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/nutricel/history5.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/nutricel/history6.png"
+            }
+        ]
+    },
+    {
+        "img": "social5.png",
+        "text": "La gestión en medios digitales de la marca Taurus Food ha involucrado múltiples estrategias de marketing digital, influencers, micro influencers, y equipos satélites de producción audiovisual en Miami. A fin de lograr un reconocimiento de marca a largo plazo en su público objetivo, optimizando los recursos disponibles para ello.",
+        "marca": "Taurus Food",
+        "proyecto": "Social content.",
+        "fecha": "2018 - 2021",
+        "carousel": [
+            {
+                "path":"assets/img/portafolio/social/taurus/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/taurus/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/taurus/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/taurus/history4.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/taurus/history5.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/taurus/history6.png"
+            },
+            {
+                "path":"assets/img/portafolio/social/taurus/history7.png"
+            }
+        ]
+    }
+]

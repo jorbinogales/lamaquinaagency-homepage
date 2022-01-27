@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --bg-yello: #FFBF0F;
+    --bg-white: #F1F0F7;
+    --bg-gray: #B3B3B3;
+    --bg-black:#333333;
+    --bg-black-strong: #000000;
+    --bg-gray-strong:#808080;
+    --bg-blue: #4B7BB7;
+    --bg-gradient-blue: 0deg, #4B7BB7 0%, transparent 100%;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins ExtraLight';
+    src: url('./assets/fonts/poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Clarisa';
+    src: url('./assets/fonts/clarisa/Clarisa.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('./assets/fonts/avenir/AvenirNextLTPro-Heavy.otf');
+}
+
+.bg-black{
+    background-color: var(--bg-black-strong);
+}
+
+.bg-middle-white{
+    background-color: var(--bg-white);
+}
+
+.text-regular{
+    font-weight: 500 !important;
+}
+
+.text-right{
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+.text-bold{
+    font-weight: bold !important;
+}
+
+.text-extralight{
+    font-weight: lighter !important;
+}
+
+body{
+    background-color: var(--bg-white);
+}
+
+section{
+    display: block;
+    max-width: 1950px;
+    margin:auto;
+    height:auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border:none;
+    outline: none;
+    background-color: inherit;
+    cursor:pointer;
+}
+
+.btn-black{
+    background-color: var(--bg-black-strong);
+    color:white;
+    border-radius: 5px;
+    text-transform: uppercase !important;
+}
+
+
+/* LINE */
+.line{
+    display: block;
+    background-color: var(--bg-gray);
+    height:2px;
+    width:100%;
+    position: absolute;
+    right:0px;
+    top:25px;
+    z-index: 1;
+}
+
+
+
+/* TEXT STANDAR */
+
+.target strong{
+    display:block;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.target span{
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.target h5{
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.target p{
+    margin-top: 25px;
+    font-family: 'Poppins';
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "title":"incrementum_text.png",
+        "title_width": "550px",
+        "img1": "incrementum1.png",
+        "img2": "incrementum2.png",
+        "country": "Perú / Año 2020",
+        "project": "Web Empresarial",
+        "preview": "https://drive.google.com/file/d/1UaNWb_DUMmC4YfHioXHsZkQRjDzbWdru/preview"
+    },
+    {
+        "title":"lasurena_text.png",
+        "title_width": "350px",
+        "img1": "lasurena1.png",
+        "img2": "lasurena2.png",
+        "country": "Venezuela / Año 2021 ",
+        "project": "Web Empresarial",
+        "preview": "https://drive.google.com/file/d/1xrABkEreVPKpdQ4BgD1ztgGYHHrcHkhc/preview"
+    },
+    {
+        "title":"sky_text.png",
+        "title_width": "450px",
+        "img1": "sky1.png",
+        "img2": "sky2.png",
+        "country": "Venezuela / Año 2021",
+        "project": "Ecommerce",
+        "preview": "https://drive.google.com/file/d/1ltJNghmB1aPk4FMtZk2rm4Bih5smGd-5/preview"
+    },
+    {
+        "title":"monkey_text.png",
+        "title_width": "450px",
+        "img1": "monkey1.png",
+        "img2": "monkey2.png",
+        "country": "Venezuela / Año 2021",
+        "project": "Ecommerce",
+        "preview": ""
+    },
+    {
+        "title":"luxury_text.png",
+        "title_width": "450px",
+        "img1": "luxury1.png",
+        "img2": "luxury2.png",
+        "country": "Venezuela / Año 2021",
+        "project": "Landing Page",
+        "preview": "https://drive.google.com/file/d/1CeGfNLkAdZ5fENT3cqlH0CQVHc_i0sQy/preview"
+    },
+    {
+        "title":"amedical_text.png",
+        "title_width": "350px",
+        "img1": "amedical1.png",
+        "img2": "amedical2.png",
+        "country": "Venezuela / Año 2021",
+        "project": "Landing Page",
+        "preview": "https://drive.google.com/file/d/18MCzRtZxrnsqc8stGcE1iEQB_rYxOGO4/preview"
+    }
+]

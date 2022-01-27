@@ -1,0 +1,77 @@
+<div class="container-fluid p-lg-0 m-0">
+    <section id="section" class="position-relative p-2 p-lg-0 pt-5 pb-5">
+       <form [formGroup]="formGroup" (submit)="submit()">
+            <img src="./assets/img/contact/text.png" alt="">
+            <div *ngIf="loading; else form">
+                <div class="loading">
+                    <div class="lds-facebook m-auto">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <ng-template #form>
+                
+                <div class="alert alert-success" role="alert" *ngIf="send">
+                    Mensaje enviado correctamente
+                 </div> 
+                 <div c lass="alert alert-danger" role="alert" *ngIf="error">
+                     No se pudo enviar el mensaje
+                 </div> 
+
+                <div class="form-group">
+                    <input 
+                    type="text" 
+                    placeholder="Nombre"
+                    formControlName="first_name"  
+                    name="first_name"
+                    required>
+                 </div>
+                 <div class="form-group">
+                     <input 
+                     type="text" 
+                     placeholder="Apellido"
+                     formControlName="last_name"  
+                     name="last_name"
+                     required>
+                 </div>
+                 <div class="form-group">
+                     <input 
+                     type="text" 
+                     placeholder="Telefono"
+                     formControlName="phone"  
+                     name="phone"
+                     required>
+                 </div>        
+                 <div class="form-group">
+                     <input 
+                     type="text" 
+                     placeholder="Correo Electronico"
+                     formControlName="email"  
+                     name="email"
+                     required>
+                 </div>
+                 <div class="form-group">
+                     <input 
+                     type="text" 
+                     placeholder="Asunto"
+                     formControlName="subject"  
+                     name="subject"
+                     required>
+                 </div>
+                 <div class="form-group">
+                     <textarea 
+                     placeholder="Mensaje" 
+                     formControlName="message"  
+                     name="message"
+                     required></textarea>
+                 </div>
+            </ng-template>
+            <input 
+            type="submit" 
+            [ngClass]="formGroup.invalid ? 'btn btn-yllow disabled' : 'btn btn-yellow'" value="Enviar" [disabled]="formGroup.invalid"
+            class="btn btn-yellow">
+       </form>
+    </section>
+</div>

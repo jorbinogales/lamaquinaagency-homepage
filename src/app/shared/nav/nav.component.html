@@ -1,0 +1,66 @@
+ <!-- /* HEADER */ -->
+ <header>
+    <nav>
+        <img src="./assets/img/logo.png">
+        <span class="linea"></span>
+        <ul>
+            <li [routerLink]="['','home']" routerLinkActive="active" class="item">
+                <a>
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li [routerLink]="['','portafolio']" routerLinkActive="active" class="item">
+                <a>
+                    <span>Portafolio</span>
+                </a>
+            </li>
+            <li [routerLink]="['','team']" routerLinkActive="active" class="item">
+                <a>
+                    <span>Team</span>
+                </a>
+            </li>
+            <li [routerLink]="['','nosotros']" routerLinkActive="active" class="item">
+                <a>
+                    <span>Qué hacemos</span>
+                </a>
+            </li>
+            <li [routerLink]="['','contact']" routerLinkActive="active" class="item">
+                <a>
+                    <span>Contacto</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="navbar-mobile">
+    <nav>
+        <ul>
+            <li [routerLink]="['','home']" routerLinkActive="active">
+                <a>
+                    <img src="./assets/img/navbar/home.png" alt="">
+                </a>
+            </li>
+            <li [routerLink]="['','portafolio']" routerLinkActive="active"  style="margin-left:30px;">
+                <a>
+                    <img src="./assets/img/navbar/portafolio.png" alt="">
+                </a>
+            </li>
+            <li [routerLink]="['','team']" routerLinkActive="active" class="m-auto" >
+                <a>
+                    <img src="./assets/img/navbar/team.png" alt="">
+                </a>
+            </li>
+            <li [routerLink]="['','nosotros']" routerLinkActive="active"  style="margin-right: 30px;">
+                <a>
+                    <img src="./assets/img/navbar/hacemos.png" alt="">
+                </a>
+            </li>
+            <li [routerLink]="['','contact']" routerLinkActive="active">
+                <a>
+                    <img src="./assets/img/navbar/contacto.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>

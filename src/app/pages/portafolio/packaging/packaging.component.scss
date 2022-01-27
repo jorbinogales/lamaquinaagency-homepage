@@ -1,0 +1,132 @@
+.carousel-control{
+    background-color: black !important;
+    color: white;
+    opacity: 1;
+    width: 45px;
+    height: 50px;
+    transform: scale(0.5);
+    font-size: 15px;
+}
+
+
+.container-fluid{
+    display: block;
+    padding-bottom: 300px !important;
+}
+
+#section .row{
+    max-width: 800px;
+    margin:auto;
+    margin-top:200px;
+}
+
+
+
+.title{
+    display: block;
+    position: relative;
+    max-width: 600px;
+    background-color: var(--bg-white);
+    margin:auto;
+    z-index: 20;
+    top:50px;
+}
+
+.line{
+    max-width: 800px;
+    margin:auto;
+    left:0px;
+    right:0px;
+}
+
+.carousel,
+.grid-right,
+.grid-left{
+    position: relative;
+    width: 100%;
+    margin-top:150px !important;
+    margin-bottom:150px !important;
+}
+
+.carousel .img,
+.grid-right .img,
+.grid-left .img{
+    display: block;
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.grid-right .img,
+.grid-left .img{
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.carousel .img img,
+.grid-right .img img,
+.grid-left .img img{
+    display: block;
+    width: 100%;
+}
+
+.box-yellow{
+    position: absolute;
+    background-color: var(--bg-yello);
+    max-width: 400px;
+    z-index: 25;
+    padding: 20px 50px;
+}
+
+.box-yellow .text{
+    font-family: 'Poppins';
+    font-size: 15px !important;
+}
+
+.box-yellow .text p{
+    margin:0 !important;
+}
+
+.carousel .box-yellow{
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:-95px;
+}
+
+.grid-right .box-yellow{
+    left:0;
+    margin:auto;
+    min-width: 500px;
+    z-index: 0;
+    margin-top:75px;
+}
+
+.grid-left .box-yellow{
+    right:0;
+    margin:auto;
+    min-width: 500px;
+    z-index: 0;
+    margin-top:75px;
+    text-align: right;
+}
+
+
+@media only screen and (max-width:968px){
+    .title{
+        max-width: 300px;
+    }
+
+    .grid-right .box-yellow{
+        bottom: -125px !important;
+    }
+
+    .box-yellow{
+        bottom:-100px !important;
+        min-width: 290px !important;
+        z-index: 150 !important;
+    }
+}
+
+

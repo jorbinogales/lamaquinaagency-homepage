@@ -1,0 +1,19 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li 
+            class="breadcrumb-item" 
+            aria-current="page" 
+            *ngFor="let item of menu; index as i">
+            <a [routerLink]="item.path" 
+                *ngIf="menu.length != i+1">
+                {{ item.name }}
+            </a>
+            <a [routerLink]="item.path" 
+                class="active"
+                *ngIf="menu.length == i+1"
+                routerLinkActive="router-link-active">
+                {{ item.name }}
+            </a>
+        </li>
+    </ol>
+  </nav>

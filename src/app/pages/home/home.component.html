@@ -1,0 +1,89 @@
+<div class="container-fluid p-0 m-0" style="overflow: hidden;">
+
+    <app-banner class="position-relative"></app-banner>
+    
+    <section id="second">
+        <div class="row p-0 m-0 white">
+            <div class="col-12 col-lg-6">
+                <img src="./assets/img/index/icon1.png" alt="" class="icon">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>Constructores de Marcas</h5>
+                <p>descaradamente fabulosas</p>
+                <button class="btn btn-black btn-lg" [routerLink]="['', 'portafolio', 'branding']">
+                    VER MAS
+                </button>
+            </div>
+        </div>
+        <div class="row p-0 m-0">
+            <div class="col-12 col-lg-6">
+                <img src="./assets/img/index/icon2.png" alt="" class="icon">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>Planificadores estratégicos</h5>
+                <p>para medios digitales</p>
+                <button class="btn btn-black btn-lg" [routerLink]="['', 'portafolio', 'social']">
+                    VER MAS
+                </button>
+            </div>
+        </div>
+        <div class="row p-0 m-0 white">
+            <div class="col-12 col-lg-6">
+                <img src="./assets/img/index/icon3.png" alt="" class="icon">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>Programadores de experiencias</h5>
+                <p>web para medios digitaless</p>
+                <button class="btn btn-black btn-lg" [routerLink]="['', 'portafolio', 'web']">
+                    VER MAS
+                </button>
+            </div>
+        </div>
+        <div class="row p-0 m-0">
+            <div class="col-12 col-lg-6">
+                <img src="./assets/img/index/icon4.png" alt="" class="icon">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h5>Comunicadores visuales,</h5>
+                <p>videógrafos, motion graphers</p>
+                <button [routerLink]="['', 'portafolio', 'audiovisual']" routerLinkActive="router-link-active"  class="btn btn-black btn-lg">
+                    VER MAS
+                </button>
+            </div>
+        </div>
+        <div class="row bg-white p-0 m-0">
+            <div class="col-12">
+                <p class="text-poppins text-center text-extralight">Quienes <strong class="text-bold">nos Avalan</strong></p>
+                <div class="bg-middle-white d-block m-auto" style="border-radius: 55px; max-width: 800px;">
+                    <ul style="display:flex; flex-wrap: wrap; list-style-type: none; max-width: 600px;" class="m-auto p-0">
+                        <li *ngFor="let quienes of alavan; index as i" style="padding: 15px 5px;" class="m-auto">
+                            <img src="assets/img/index/{{ quienes.img }}" class="d-block m-auto list-item" style="max-width:95px;">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="thridty">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </section>
+</div>
+
+
+

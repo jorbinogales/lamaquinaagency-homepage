@@ -1,0 +1,90 @@
+
+<section id="brand">
+    <div class="wallpapper" style="background-image: url('assets/img/portafolio/branding/{{ brand.wallpapper }}');"></div>
+    <div class="container mb-5">
+        <div class="container-fluid p-5">
+           
+            <div id="list-branding-attachment">
+                <ul>
+                    <li>
+                        <a [routerLink]="['/', 'portafolio', 'branding', 'rifel']"  *ngIf="route != 'RIFEL'">
+                            <img src="assets/img/portafolio/branding/rifel/rifel-logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/', 'portafolio', 'branding', 'keyworks']"   *ngIf="route != 'KEYWORKS'">
+                            <img src="assets/img/portafolio/branding/keyworks/keyworks-logo.png" alt="">
+                        </a>
+                    </li>
+                     <li>
+                        <a [routerLink]="['/', 'portafolio', 'branding', 'sky']"  *ngIf="route != 'SKY LUBRICANTES'">
+                            <img src="assets/img/portafolio/branding/sky/sky-logo.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <app-breadcrumb [menu]="menu"></app-breadcrumb>
+            <div class="row mt-5" style="max-width: 700px; margin:auto; margin-bottom:50px; ">
+                <div class="col-12 col-lg-4">
+                    <img src="assets/img/portafolio/branding/{{ brand.logo }}" id="logo-small" alt="" class="d-block" style="max-width: 200px;">
+                </div>
+                <div class="col-12 col-lg-8">
+                    <strong>{{ brand.brand }}</strong>
+                    <P>Venezuela / Año {{ brand.year }}</P>
+                    <strong>Cliente: {{ brand.business }} </strong>
+                </div>
+            </div>
+
+            <div class="row m-auto" style="max-width: 700px; margin-top:50px;">
+                <div class="col-12">
+                    <p>{{ brand.description }}</p>
+                </div>
+            </div>
+
+            <div class="content mt-5" *ngFor="let project of brand.projects">
+                <div class="content-body" style="margin-top:50px;">
+                    <div class="row row-content p-0 m-0":style="height: {{ project.height }}">
+                        <div class="{{ grids.col }}" *ngFor="let grids of project.row">
+                            <div class="row" *ngFor="let grid of grids.grid" :style="height: {{ 100/grids.grid.length }}%">
+                                <div class="img" 
+                                :style="background-image: url('assets/img/portafolio/branding/{{ grid }}');">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-footer mt-2">
+                    <p class="p-0 m-0">PROYECTO:</p>
+                    <strong>{{ project.title}}</strong>
+                </div>
+            </div>
+            
+            <div class="content" style="position: relative; margin-top:100px; display: block;">
+
+                <div class="carousel d-none d-lg-block">
+                    <div class="blur blur-left"></div>
+                    <div class="blur blur-right"></div>
+                    <img src="assets/img/portafolio/branding/{{ brand.cover }}" class="marco" alt="marco_lamaquinaagency">
+                    <carousel class="m-auto" [arrowsOutside]="true" [cellsToShow]="3" [height]="250" [cellWidth]="250" [images]="images" [loop]="true" [autoplay]="true" style="position: relative; max-width: 800px; margin-top:50px !important;">
+                    </carousel>
+                </div>
+
+                <div class="carousel d-block d-lg-none">
+                    <img src="assets/img/portafolio/branding/{{ brand.cover }}" class="marco" alt="marco_lamaquinaagency" style="margin-top:20px; width: 100%; max-width: 200px;">
+                    <carousel class="m-auto" [arrowsOutside]="true" [cellsToShow]="1" [height]="200" [cellWidth]="150" [images]="images" [loop]="true" [autoplay]="true" style="position: relative; max-width: 200px; margin-top:0px !important;">
+                    </carousel>
+                </div>
+
+                <img src="assets/img/portafolio/branding/{{ brand.histories }}" alt="" style="width: 100%; margin-left:auto; margin-right:auto; position:relative; margin-top:90px; display:block">
+           
+                
+                <div class="content-footer" style="margin-top:15px;">
+                    <p class="p-0 m-0">PROYECTO:</p>
+                    <strong>REDES SOCIALES</strong>
+                </div>
+            </div>
+            <app-breadcrumb [menu]="menu"></app-breadcrumb>
+        </div>
+    </div>
+</section>

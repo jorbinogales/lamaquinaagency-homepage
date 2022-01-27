@@ -1,0 +1,133 @@
+.container-fluid{
+    display: block;
+    padding-bottom: 300px !important;
+}
+
+.title{
+    display: block;
+    position: relative;
+    max-width: 600px;
+    background-color: var(--bg-white);
+    margin:auto;
+    z-index: 20;
+    top:50px;
+}
+
+.line{
+    max-width: 800px;
+    margin:auto;
+    left:0px;
+    right:0px;
+}
+
+#logofolio .target{
+    position: relative;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-bottom:50px;
+    height: 400px;
+    transition: all .5s ease-in-out;
+}
+
+#logofolio .row{
+    max-width: 700px;
+    margin:auto;
+    margin-top:150px;
+    background-color: var(--bg-white);
+}
+
+
+
+.target .img{
+    position: relative;
+    display: block;
+    height: 250px;
+    margin-bottom:10px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.target .img img{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    margin-top:auto;
+    display:block;
+    width: 70%;
+    max-width: 250px;
+    transition: all .5s ease-in-out;
+}
+
+.target .text{
+    height: 100px;
+}
+
+.target .description{
+    display: none;
+    color:white;
+    font-size:14px;
+}
+
+#logofolio .target:hover{
+    background-color: black !important;
+    transition: all .5s ease-in;
+}
+
+
+.target:hover .logo-color{
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+.target:hover .description{
+    display:block;
+}
+
+.target:hover .date{
+    display: none;
+}
+
+.target:hover .name{
+    display: none;
+}
+
+
+.target:hover .img{
+    transition: all .5s ease-in-out;
+    height:175px;
+}
+
+.target:hover .img img{
+    transition: all .5s ease-in-out;
+    max-width: 175px;
+}
+
+@media only screen and (max-width: 968px){
+
+    .target:hover .img img{
+        transition: all .5s ease-in-out;
+        max-width: 100px;
+        bottom: inherit;
+    }
+
+    .target:hover .img{
+        height:100px;
+    }
+
+
+    .target .description{
+        font-size: 10px;
+    }
+
+    .target{
+        padding: 35px !important;
+        min-height: 450px;
+    }
+
+    .title{
+        max-width: 200px;
+    }
+}

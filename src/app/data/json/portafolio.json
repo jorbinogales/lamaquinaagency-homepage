@@ -1,0 +1,111 @@
+[
+
+    {
+       "title": "text_branding.svg",
+       "maxWidth": "350px",
+       "type": "image",
+       "img1": "branding1.png",
+       "routerLink1": [
+          "/",
+          "portafolio",
+          "branding",
+          "rifel"
+       ],
+       "img2": "branding2.png",
+       "routerLink2": [
+         "/",
+         "portafolio",
+         "branding",
+         "keyworks"
+      ],
+       "img3": "branding3.png",
+       "routerLink3": [
+         "/",
+         "portafolio",
+         "branding",
+         "sky"
+      ],
+       "url": "branding"
+    },
+    {
+        "title": "text_packaging.svg",
+        "maxWidth": "350px",
+        "type": "image",
+        "img1": "packaging1.png",
+        "routerLink1": [
+         "/",
+         "portafolio",
+         "packaging"
+         ],
+        "img2": "packaging2.png",
+        "routerLink2": [
+         "/",
+         "portafolio",
+         "packaging"
+        ],
+        "img3": "packaging3.png",
+        "routerLink3": [
+         "/",
+         "portafolio",
+         "packaging"
+        ],
+        "url": "packaging"
+     },
+     {
+        "title": "text_social.svg",
+        "maxWidth": "500px",
+        "type": "image",
+        "img1": "social1.png",
+        "routerLink1": [
+         "/",
+         "portafolio",
+         "social"
+        ],
+        "img2": "social2.png",
+        "routerLink2": [
+         "/",
+         "portafolio",
+         "social"
+        ],
+        "img3": "social3.png",
+        "routerLink3": [
+         "/",
+         "portafolio",
+         "social"
+        ],
+        "url": "social"
+     },
+     {
+        "title": "text_animacion.svg",
+        "maxWidth": "700px",
+        "type": "video",
+        "img1": "https://www.youtube.com/embed/Pl_WMigiddQ",
+        "img2": "https://www.youtube.com/embed/EphdOsXEWWA",
+        "img3": "https://www.youtube.com/embed/FC7foLcewYs",
+        "url": "audiovisual"
+     },
+     {
+         "title": "text_web.svg",
+         "maxWidth": "150px",
+         "type": "image",
+         "img1": "website1.png",
+         "routerLink1": [
+            "/",
+            "portafolio",
+            "web"
+           ],
+         "img2": "website2.png",
+         "routerLink2": [
+            "/",
+            "portafolio",
+            "web"
+           ],
+         "img3": "website3.png",
+         "routerLink3": [
+            "/",
+            "portafolio",
+            "web"
+           ],
+         "url": "web"
+   }
+]

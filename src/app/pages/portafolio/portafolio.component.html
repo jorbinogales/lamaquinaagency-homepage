@@ -1,0 +1,197 @@
+<div class="container-fluid p-5 mb-5">
+    <section id="section" class="position-relative mb-5">
+        <app-tirolina ></app-tirolina>
+        <app-breadcrumb [menu]="menu" class="mt-5"></app-breadcrumb>
+
+
+        <!-- /* BRANDING */  -->
+   
+        <div class="content position-relative pt-5">
+            <div class="position-relative pb-5 mt-5">
+                <img src="./assets/img/portafolio/text_logofolio.png" 
+                alt="" 
+                class="title mt-5"
+                >
+                <span class="line mt-3"></span>
+                <div class="grid">
+                    <div class="row d-none d-lg-inline-flex" style="max-height: 377px; overflow: hidden;"  >
+                        <div class="col-12 col-lg-8 box p-0">
+                            <img 
+                            src="./assets/img/portafolio/logofolio1.png" 
+                            alt="" 
+                            style="padding: 50px 190px 150px 190px" 
+                            [routerLink]="['','portafolio', 'logofolio']" routerLinkActive="router-link-active" 
+                            >
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 box box-right p-0 ml-3 bg-white">
+                                    <img 
+                                    src="./assets//img/portafolio/logofolio2.png" 
+                                    alt="" 
+                                    class="mt-lg-0" 
+                                    style="padding: 25px 100px 50px 100px"
+                                    [routerLink]="['','portafolio', 'logofolio']"
+                                    >
+                                </div>
+                                <div class="col-12 col-lg-12 box box-right p-0 ml-3 bg-white mt-3" style="z-index: 100;">
+                                    <img 
+                                    src="./assets/img/portafolio/logofolio3.png" 
+                                    style="padding: 25px 75px 50px 75px"
+                                    alt="" 
+                                     [routerLink]="['','portafolio', 'logofolio']"
+                                     >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-block d-lg-none p-4">
+                        <div class="col-12 box bg-white  mt-2">
+                            <img 
+                            src="./assets/img/portafolio/logofolio1.png" 
+                            alt="" 
+                            class="p-5"
+                            [routerLink]="['','portafolio', 'logofolio']" routerLinkActive="router-link-active" 
+                            >
+                        </div>
+                        <div class="col-12 box p-0 bg-white mt-2">
+                            <img 
+                            src="./assets//img/portafolio/logofolio2.png" 
+                            alt=""  
+                            class="p-5"
+                            [routerLink]="['','portafolio', 'logofolio']"
+                            >
+                        </div>
+                        <div class="col-12 box p-0 bg-white  mt-2" style="z-index: 100;">
+                            <img 
+                            src="./assets/img/portafolio/logofolio3.png" 
+                            alt="" 
+                            class="p-5"
+                            [routerLink]="['','portafolio', 'logofolio']"
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6 position-relative">
+                        <div class="box-yellow">
+                            <button [routerLink]="['','portafolio', 'logofolio']" class="btn btn-black">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative mt-5 pb-5" *ngFor="let work of portafolio; index as i">
+                <img src="./assets/img/portafolio/{{ work.title}}" 
+                    alt="" 
+                    class="title mt-5"
+                    [ngStyle]="{ 'max-width': work.maxWidth }"
+                    >
+                <span class="line mt-3"></span>
+                <div class="grid">
+
+                    <!-- IMAGE  -->
+                    <div class="row p-lg-0 d-none d-lg-inline-flex" *ngIf="work.type == 'image'" style="max-height: 377px; overflow: hidden;" >
+                        <div class="col-12 col-lg-8 box">
+                            <img src="./assets//img/portafolio/{{work.img1}}" alt=""
+                            [routerLink]="work.routerLink1">
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 box box-right ml-3 p-0">
+                                    <img src="./assets//img/portafolio/{{work.img2}}" 
+                                    alt="" class="mt-lg-0"
+                                    [routerLink]="work.routerLink2"
+                                    >
+                                </div>
+                                <div class="col-12 col-lg-12 box box-right ml-3 p-0 mt-3">
+                                    <img src="./assets//img/portafolio/{{work.img3}}" alt=""
+                                    [routerLink]="work.routerLink3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row p-4 d-block d-lg-none" *ngIf="work.type == 'image'">
+                        <div class="col-12 box mt-3">
+                            <img src="./assets//img/portafolio/{{work.img1}}" alt=""
+                            [routerLink]="work.routerLink1">
+                        </div>
+                        <div class="col-12 box mt-3">
+                            <img src="./assets//img/portafolio/{{work.img2}}" 
+                            alt="" class="mt-lg-0"
+                            [routerLink]="work.routerLink2"
+                            >
+                        </div>
+                        <div class="col-12 box mt-3">
+                            <img src="./assets//img/portafolio/{{work.img3}}" alt=""
+                            [routerLink]="work.routerLink3">
+                        </div>
+                    </div>
+
+                    <!-- VIDEO  -->
+                    <div class="row p-4 p-lg-0" *ngIf="work.type == 'video'">
+                        <div class="col-12 col-lg-8 box" >
+                            <iframe 
+                            class="d-none d-lg-block"
+                            width="100%" 
+                            height="400"
+                            [src]="work.img1 | safe"
+                            frameborder="0" 
+                            allowfullscreen>
+                            </iframe>
+                            <iframe 
+                            class="d-block d-lg-none"
+                            width="100%" 
+                            height="200"
+                            [src]="work.img1 | safe"
+                            frameborder="0" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 box">
+                                    <iframe 
+                                    width="100%" 
+                                    height="200"
+                                    [src]="work.img2 | safe"
+                                    frameborder="0" 
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="col-12 col-lg-12 box">
+                                    <iframe 
+                                    width="100%" 
+                                    height="200"
+                                    [src]="work.img3 | safe"
+                                    frameborder="0" 
+                                    allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6 position-relative">
+                        <div class="box-yellow">
+                            <div *ngIf="work.url != 'branding'">
+                                <button [routerLink]="['','portafolio', work.url]" class="btn btn-black">Ver más</button>
+                            </div>
+                            <div *ngIf="work.url == 'branding'">
+                                <button [routerLink]="['','portafolio', work.url, 'sky']" class="btn btn-black">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+    <app-breadcrumb [menu]="menu"></app-breadcrumb>
+</div>

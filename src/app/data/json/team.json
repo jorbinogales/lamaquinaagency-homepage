@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Anais",
+        "cargo":"Diseñadora",
+        "picture": "anais",
+        "crazy_picture": "anais1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Le encanta bailar en tik tok"
+    },
+    {
+        "name": "Anselmo",
+        "cargo":"Diseñador",
+        "picture": "anselmo",
+        "crazy_picture": "anselmo1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Hace 50 post en un día"
+    },
+    {
+        "name": "Alana",
+        "cargo":"Copywriter",
+        "picture": "alana",
+        "crazy_picture": "alana1",
+        "copy_1": "Lic. Psicología",
+        "copy_2": "Hace 80 copys en una noche"
+    },
+    {
+        "name": "Asiria",
+        "cargo":"Copywriter",
+        "picture": "asiria",
+        "crazy_picture": "asiria1",
+        "copy_1": "Lic. Literatura",
+        "copy_2": "Se inspira con una fría"
+    },
+    {
+        "name": "Cesar",
+        "cargo":"Art Director",
+        "picture": "cesar",
+        "crazy_picture": "cesar1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Nunca sabe lo que él sabe que supo"
+    },
+    {
+        "name": "Chrystian",
+        "cargo":"Diseñador",
+        "picture": "chrys",
+        "crazy_picture": "chrys1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "No le gusta ver perder a la Vinotinto"
+    },
+    {
+        "name": "Claudia",
+        "cargo":"Brand Manager",
+        "picture": "claudia",
+        "crazy_picture": "claudia1",
+        "copy_1": "Lic. Adm. Mercadeo",
+        "copy_2": "Se tiene que ir a las 4:00 PM"
+    },
+    {
+        "name": "Diana",
+        "cargo":"Diseñadora",
+        "picture": "diana",
+        "crazy_picture": "diana1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Le decimos Dianita"
+    },
+    {
+        "name": "Diego",
+        "cargo":"Diseñador",
+        "picture": "diego",
+        "crazy_picture": "diego1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Nos contagia de alegría cada día"
+    },
+    {
+        "name": "Gessenia",
+        "cargo":"Diseñadora",
+        "picture": "gessenia",
+        "crazy_picture": "gessenia1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Mamá de nube"
+    },
+    {
+        "name": "Jorbi",
+        "cargo":"Programador",
+        "picture": "jorbi",
+        "crazy_picture": "jorbi1",
+        "copy_1": "Ing. Sistemas",
+        "copy_2": "Ingeniero del Ingenio"
+    },
+    {
+        "name": "Laura",
+        "cargo":"Copywriter",
+        "picture": "laura",
+        "crazy_picture": "laura1",
+        "copy_1": "Lic. Literatura",
+        "copy_2": "Ama el cine y la fotografía"
+    },
+    {
+        "name": "Liorennys",
+        "cargo":"Diseñadora",
+        "picture": "liorennys",
+        "crazy_picture": "liorennys1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Una mujer con power"
+    },
+    {
+        "name": "Maria. A",
+        "cargo":"CAO",
+        "picture": "lalita",
+        "crazy_picture": "lalita1",
+        "copy_1": "Lic. Administración",
+        "copy_2": "El Chorrito de Internet"
+    },
+    {
+        "name": "Maria. L",
+        "cargo":"Diseñadora",
+        "picture": "marialaura",
+        "crazy_picture": "marialaura1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Tatuadora por convicción"
+    },
+    {
+        "name": "Nicols",
+        "cargo":"Brand Manager",
+        "picture": "nicols",
+        "crazy_picture": "nicols1",
+        "copy_1": "Ing. Industrial",
+        "copy_2": "La esposa de capo"
+    },
+    {
+        "name": "Rafael",
+        "cargo":"Diseñador",
+        "picture": "rafa",
+        "crazy_picture": "rafa1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Se infarta cuando pierde el barca"
+    },
+    {
+        "name": "Ricardo",
+        "cargo":"Community Manager",
+        "picture": "ricardo",
+        "crazy_picture": "ricardo1",
+        "copy_1": "Ing. Industrial",
+        "copy_2": "No trabaja, solo revisa RRSS todo el día"
+    },
+    {
+        "name": "Rosmary",
+        "cargo":"CFO",
+        "picture": "rosmary",
+        "crazy_picture": "rosmary1",
+        "copy_1": "Lic. Contaduría Publica",
+        "copy_2": "Le gusta el limón"
+    },
+    {
+        "name": "Wilmer",
+        "cargo":"COO",
+        "picture": "wilmer",
+        "crazy_picture": "wilmer1",
+        "copy_1": "Lic. Economía",
+        "copy_2": "Yo mismo soy"
+    },
+    {
+        "name": "Willianny",
+        "cargo":"Copywriter",
+        "picture": "willianny",
+        "crazy_picture": "willianny1",
+        "copy_1": "Lic. Desarrollo Humano",
+        "copy_2": "Se inspira con una catalina"
+    },
+    {
+        "name": "Winston",
+        "cargo":"Diseñador",
+        "picture": "capo",
+        "crazy_picture": "capo1",
+        "copy_1": "Lic. Diseño Integral",
+        "copy_2": "Noctambulo de nacimiento"
+    }
+]

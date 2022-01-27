@@ -1,0 +1,49 @@
+.tirolina{
+    position: absolute;
+    right:100px;
+    bottom:0px;
+    top:0px;
+    width:2px;
+    background-color: var(--bg-yello);
+    z-index: 100;
+}
+
+
+.tirolina #img-tirolina{
+    content: '';
+    width:35px;
+    height:35px;
+    position: absolute;
+    top:-10px;
+    right:-31px;
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
+}
+
+.tirolina .polea{
+    position:absolute;
+    width: 25px;
+    height:100px;
+    background-color: var(--bg-yello);
+    border-radius: 25px;
+    margin-left:15px;
+    margin-top:25px;
+    transition:all 1s ease-in-out
+}
+
+.tirolina .cuerda{
+    content: '';
+    position:absolute;
+    width:2px;
+    top:0px;
+    left:29px;
+    background-color: var(--bg-yello);
+    transition:all 1s ease-in-out
+}
+
+#img-bigCircle{
+    position: absolute;
+    max-width:75px;
+    bottom:-35px;
+    right:100px;
+}
