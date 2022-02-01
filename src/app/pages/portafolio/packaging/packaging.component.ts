@@ -8,7 +8,7 @@ import packaging from '../../../data/json/packaging.json';
 export class PackagingComponent implements OnInit{
 
   packaging: any;
-    menu: any[] = [
+  menu: any[] = [
       {
         name:"Home",
         path: ['']

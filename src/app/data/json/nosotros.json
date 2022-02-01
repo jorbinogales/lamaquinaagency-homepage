@@ -1,6 +1,6 @@
 [
     {
-        "title": "comunicacion_text.png",
+        "title": "comunicacion_text.svg",
         "img1":"comunicacion_img_1.jpg",
         "img2": "comunicacion_img_2.jpg",
         "items": [
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "title": "digital_text.png",
+        "title": "digital_text.svg",
         "img1":"digital_img_1.jpg",
         "img2": "digital_img_2.jpg",
         "items": [
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "title": "convencional_text.png",
+        "title": "convencional_text.svg",
         "img1":"digital_img_2.jpg",
         "img2": "digital_img_1.jpg",
         "items": [
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "title": "telemarketing_text.png",
+        "title": "telemarketing_text.svg",
         "img1":"telemarketing_img_1.jpg",
         "img2": "telemarketing_img_2.jpg",
         "items": [

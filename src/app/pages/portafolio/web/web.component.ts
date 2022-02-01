@@ -33,4 +33,8 @@ export class WebComponent implements OnInit{
     openModal(url:string){
       this.pdfSrc = url;
     }
+
+    closeModal(){
+      this.pdfSrc = null;
+    }
 }

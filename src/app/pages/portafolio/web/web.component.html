@@ -5,22 +5,17 @@
             <app-breadcrumb [menu]="menu"></app-breadcrumb>
             <img src="./assets/img/BigCircle.png" alt="" id="img-bigCircle" class="d-none d-lg-inline-block">
             <div class="grid" *ngFor="let web of webs; index as i">
-                <div class="row mt-5">
+                <div class="row mt-2">
                     <div class="col-12 mt-5">
-                        <img 
-                        src="assets/img/portafolio/web/{{ web.title }}" 
-                        alt="{{ web.title }}" 
-                        class="title mt-5"
-                        :style="max-width: {{ web.title_width }}"
-                        >
-                        <span class="line mt-5"></span>
+                        <span class="line"></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <div class="img">
                             <img src="assets/img/portafolio/web/{{ web.img1 }}" alt="{{ web.img1 }}" 
-                            data-toggle="modal" data-target=".bd-example-modal-lg"
+                            data-toggle="modal" 
+                            data-target=".bd-example-modal-lg"
                             (click)="openModal(web.preview)"
                             >
                         </div>
@@ -34,8 +29,9 @@
                             </div>
                             <div class="col-12 position-relative p-5 p-lg-0 mt-lg-0">
                                 <div class="text target ml-3">
-                                    <strong>{{ web.project }}</strong>
-                                    <span>{{ web.country }}</span>
+                                    <h5>{{ web.title }}</h5>
+                                    <p class="mb-1 mt-1">{{ web.project }}</p>
+                                    <span style="margin-top: 10px !important">{{ web.country }}</span>
                                 </div>
                                 <div class="box-yellow"></div>
                             </div>
@@ -50,7 +46,13 @@
 
 <div 
 style="background-color: rgba(0,0,0,.8);"
-class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+class="modal fade bd-example-modal-lg" 
+tabindex="-1" 
+role="dialog" 
+aria-labelledby="myLargeModalLabel" 
+aria-hidden="true"
+(click)="closeModal()"
+>
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-body p-0">
