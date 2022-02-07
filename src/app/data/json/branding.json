@@ -7,7 +7,6 @@
         "logo": "rifel/rifel-logo.png",
         "wallpapper": "rifel/rifel-wallpapper.png",
         "cover": "rifel/marco.svg",
-        "histories": "rifel/stories.gif",
         "projects": [
             {
                 "title": "DISEÑO DE CATÁLOGO DE PRODUCTOS",
@@ -90,6 +89,29 @@
             },
             {
                 "path":"assets/img/portafolio/branding/rifel/carousel5.png"
+            }
+        ],
+        "histories": [
+            {
+                "path":"assets/img/portafolio/branding/rifel/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/history4.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/history5.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/history6.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/rifel/history7.png"
             }
         ]
     },
@@ -208,6 +230,20 @@
             {
                 "path":"assets/img/portafolio/branding/sky/carousel5.png"
             }
+        ],
+        "histories": [
+            {
+                "path":"assets/img/portafolio/branding/sky/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/sky/history4.png"
+            }
         ]
     },
     {
@@ -277,6 +313,26 @@
             },
             {
                 "path":"assets/img/portafolio/branding/keyworks/carousel5.png"
+            }
+        ],
+        "histories": [
+            {
+                "path":"assets/img/portafolio/branding/keyworks/history1.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/history2.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/history3.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/history4.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/history5.png"
+            },
+            {
+                "path":"assets/img/portafolio/branding/keyworks/history6.png"
             }
         ]
     }

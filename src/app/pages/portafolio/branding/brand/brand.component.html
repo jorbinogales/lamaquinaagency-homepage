@@ -76,8 +76,15 @@
                     </carousel>
                 </div>
 
-                <img src="assets/img/portafolio/branding/{{ brand.histories }}" alt="" style="width: 100%; margin-left:auto; margin-right:auto; position:relative; margin-top:90px; display:block">
-           
+                <div class="carousel d-none d-lg-block" style="margin-top:75px">
+                    <carousel class="m-auto" [arrowsOutside]="true" [cellsToShow]="3" [height]="400" [cellWidth]="150" [images]="brand.histories" [loop]="true" [autoplay]="true" style="position: relative; max-width: 500px; margin-top:0px !important;">
+                    </carousel>
+                </div>
+
+                <div class="carousel d-block d-lg-none"  style="margin-top:75px">
+                    <carousel class="m-auto" [arrowsOutside]="true" [cellsToShow]="1" [height]="400" [cellWidth]="150" [images]="brand.histories" [loop]="true" [autoplay]="true" style="position: relative; max-width: 200px; margin-top:0px !important;">
+                    </carousel>
+                </div>
                 
                 <div class="content-footer" style="margin-top:15px;">
                     <p class="p-0 m-0">PROYECTO:</p>

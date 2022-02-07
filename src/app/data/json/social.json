@@ -4,7 +4,8 @@
         "text": "Enfibrate con Fibrahogar fue una campaña nacional de promoción 360 para el lanzamiento del proyecto fibra óptica de la Corporación Telemic C.A y su marca Inter.",
         "marca": "Inter",
         "proyecto": "Campaña de lanzamiento.",
-        "fecha": "2021" 
+        "fecha": "2021" ,
+        "carouselFolder": "inter"
     },
      {
         "img": "social2.png",
@@ -31,8 +32,8 @@
             {
                 "path":"assets/img/portafolio/social/purisima/history6.png"
             }
-        ]
-        
+        ],
+        "carouselFolder": "purisima"
     },
     {
         "img": "social3.png",
@@ -62,7 +63,8 @@
             {
                 "path":"assets/img/portafolio/social/rifel/history7.png"
             }
-        ]
+        ],
+        "carouselFolder": "rifel"
     },
     {
         "img": "social4.png",
@@ -89,7 +91,8 @@
             {
                 "path":"assets/img/portafolio/social/nutricel/history6.png"
             }
-        ]
+        ],
+        "carouselFolder": "nutricel"
     },
     {
         "img": "social5.png",
@@ -119,6 +122,7 @@
             {
                 "path":"assets/img/portafolio/social/taurus/history7.png"
             }
-        ]
+        ],
+        "carouselFolder": "taurus"
     }
 ]

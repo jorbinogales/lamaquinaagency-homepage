@@ -73,6 +73,7 @@
 }
 
 
+
 @media only screen and (max-width:968px){
     .title{
         max-width: 300px;
@@ -80,6 +81,19 @@
 
     .grid-right .box-yellow{
         bottom: -125px !important;
+    }
+
+    
+    #section .row{
+        max-width: 800px;
+        margin:0;
+        margin-top:200px;
+        padding:0;
+    }
+
+
+    .box-yellow-right{
+        right: 0px;
     }
 
     .box-yellow{

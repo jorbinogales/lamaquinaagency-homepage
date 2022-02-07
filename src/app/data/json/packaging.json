@@ -117,27 +117,5 @@
                 "path":"assets/img/portafolio/packaging/bondy2.png"
             }
         ]
-    },
-    {
-        "marca": "Catalpa",
-        "sector": "Alimentos y Bebidas",
-        "carousel": [
-            {
-                "path":"assets/img/portafolio/packaging/catalpa1.png"
-            }
-        ]
-    },
-    {
-        "marca": "Corporación Bel",
-        "sector": "Alimentos y bebidas",
-        "pais": "Venezuela / Año: 2020",
-        "carousel": [
-            {
-                "path":"assets/img/portafolio/packaging/bel1.png"
-            },
-            {
-                "path":"assets/img/portafolio/packaging/bel2.png"
-            }
-        ]
     }
 ]

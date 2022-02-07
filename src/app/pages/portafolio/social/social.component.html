@@ -3,7 +3,7 @@
 
         <app-tirolina></app-tirolina>
 
-        <div class="content position-relative" style="padding-bottom: 200px">
+        <div class="content position-relative" style="padding-bottom: 50px">
             <app-breadcrumb [menu]="menu"></app-breadcrumb>
             <img src="./../../../../assets/img/portafolio/text_social.png" alt="" class="title mt-5">
             <span class="line mt-5"></span>
@@ -11,21 +11,21 @@
 
                 <div class="row social-content p-4 p-lg-0" 
                     *ngIf="i % 2 != 0"
-                    [ngStyle]="{ 'margin-top': i == 0 ? '0px': '500px'}"
+                    style="margin-top:200px"
                     >
                     <div class="col-12 col-lg-8 box">
 
                         <div class="scene">
                             <div class="content-carrousel">
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel1.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel2.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel3.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel4.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel5.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel6.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel1.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel2.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel3.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel4.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel5.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel6.png" alt=""></figure>
                             </div>
                         </div>
-
+                        
                         <carousel class="m-auto d-none d-lg-block" 
                                 [arrowsOutside]="true" 
                                 [cellsToShow]="3" 
@@ -44,7 +44,7 @@
                                 [images]="social.carousel" 
                                 [loop]="true" 
                                 [autoplay]="true" 
-                                style="position: relative; max-width: 150px; margin-top:50px !important;">
+                                style="position: relative; max-width: 150px; margin-top:50px !important">
                         </carousel>
                         
                         
@@ -64,7 +64,7 @@
                 <div 
                 class="row social-content p-4 p-lg-0" 
                 *ngIf="i % 2 == 0"
-                [ngStyle]="{ 'margin-top': i == 0 ? '150px': '500px'}"
+                style="margin-top:200px"
                 >
                     <div class="col-12 col-lg-4 target">
                         <strong class="text">{{ social.marca }} </strong>
@@ -77,35 +77,40 @@
                     <div class="col-12 col-lg-8 box">
                         <div class="scene">
                             <div class="content-carrousel">
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel1.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel2.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel3.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel4.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel5.png" alt=""></figure>
-                                <figure><img src="assets/img/portafolio/social/nutricel/carousel6.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel1.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel2.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel3.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel4.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel5.png" alt=""></figure>
+                                <figure><img src="assets/img/portafolio/social/{{ social.carouselFolder }}/carousel6.png" alt=""></figure>
                             </div>
                         </div>
-                        
-                        <carousel class="m-auto d-none d-lg-block" 
-                                [arrowsOutside]="true" 
-                                [cellsToShow]="3" 
-                                [height]="400"
-                                [images]="social.carousel" 
-                                [loop]="true" 
-                                [autoplay]="true" 
-                                style="position: relative; max-width: 800px; margin-top:50px !important;">
-                        </carousel>
 
-                        <carousel
-                                class="m-auto d-block d-lg-none" 
-                                [arrowsOutside]="true" 
-                                [cellsToShow]="1" 
-                                [height]="350"
-                                [images]="social.carousel" 
-                                [loop]="true" 
-                                [autoplay]="true" 
-                                style="position: relative; max-width: 150px; margin-top:50px !important;">
-                        </carousel>
+
+                        <div>
+                            <carousel 
+                                    *ngIf="social.carousel"
+                                    class="m-auto d-none d-lg-block" 
+                                    [arrowsOutside]="true" 
+                                    [cellsToShow]="3" 
+                                    [height]="400"
+                                    [images]="social.carousel" 
+                                    [loop]="true" 
+                                    [autoplay]="true" 
+                                    style="position: relative; max-width: 800px; margin-top:50px !important;">
+                            </carousel>
+
+                            <carousel
+                                    class="m-auto d-block d-lg-none" 
+                                    [arrowsOutside]="true" 
+                                    [cellsToShow]="1" 
+                                    [height]="350"
+                                    [images]="social.carousel" 
+                                    [loop]="true" 
+                                    [autoplay]="true" 
+                                    style="position: relative; max-width: 150px; margin-top:50px !important;">
+                            </carousel>
+                        </div>
                         
                         <div class="box-yellow box-yellow-right"></div>
                     </div>

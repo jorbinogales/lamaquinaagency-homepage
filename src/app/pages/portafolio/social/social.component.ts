@@ -26,6 +26,7 @@ export class SocialComponent implements OnInit{
     constructor(){}
 
     ngOnInit(){
+      console.log(social);
         this.socials = social;
     }
 }
