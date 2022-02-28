@@ -28,8 +28,8 @@
     },
     {
         "title": "digital_text.svg",
-        "img1":"digital_img_1.jpg",
-        "img2": "digital_img_2.jpg",
+        "img1":"digital_img_2.jpg",
+        "img2": "digital_img_1.jpg",
         "items": [
             {
                 "title": "SOCIAL MEDIA MANAGEMENT",
@@ -80,8 +80,8 @@
     },
     {
         "title": "convencional_text.svg",
-        "img1":"digital_img_2.jpg",
-        "img2": "digital_img_1.jpg",
+        "img1":"convencional_img_2.jpg",
+        "img2": "convencional_img_1.jpg",
         "items": [
             {
                 "title": "PUBLICIDAD",

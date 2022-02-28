@@ -10,12 +10,12 @@
             <div class="grid" *ngFor="let packaging of packaging; index as i">
 
                 <div class="row target" *ngIf="i % 2 == 0">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-3">
                         <strong>{{ packaging.marca }}</strong>
                         <span>{{ packaging.sector }}</span>
                         <h5>{{ packaging.pais }}</h5>
                     </div>
-                    <div class="col-12 col-lg-8">
+                    <div class="col-12 col-lg-9">
                         <carousel  [arrowsOutside]="false" [height]="300"  [cellsToShow]="1"  [images]="packaging.carousel" [loop]="true" [autoplay]="true">
                         </carousel>
                         <div class="box-yellow box-yellow-right"></div>
@@ -24,12 +24,18 @@
                 
 
                 <div class="row target" *ngIf="i % 2 != 0">
-                    <div class="col-12 col-lg-8">
+                    <div class="col-12 col-lg-3 d-block d-lg-none">
+                        <strong>{{ packaging.marca }}</strong>
+                        <span>{{ packaging.sector }}</span>
+                        <h5>{{ packaging.pais }}</h5>
+                    </div>
+                    <div class="col-12 col-lg-9">
                         <carousel  [arrowsOutside]="false" [height]="300" [cellsToShow]="1"  [images]="packaging.carousel" [loop]="true" [autoplay]="true">
                         </carousel>
-                        <div class="box-yellow box-yellow-left"></div>
+                        <div class="d-none d-lg-block box-yellow box-yellow-left"></div>
+                        <div class="d-block d-lg-none box-yellow box-yellow-right"></div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-3 d-none d-lg-block">
                         <strong>{{ packaging.marca }}</strong>
                         <span>{{ packaging.sector }}</span>
                         <h5>{{ packaging.pais }}</h5>

@@ -25,6 +25,12 @@
             },
             {
                 "path":"assets/img/portafolio/packaging/vitalden2.png"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/vitalden3.jpg"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/vitalden4.jpg"
             }
         ]
     },
@@ -34,13 +40,16 @@
         "pais": "Venezuela / Año: 2019",
         "carousel": [
             {
-                "path":"assets/img/portafolio/packaging/philp1.png"
+                "path":"assets/img/portafolio/packaging/philp1.jpg"
             },
             {
-                "path":"assets/img/portafolio/packaging/philp2.png"
+                "path":"assets/img/portafolio/packaging/philp2.jpg"
             },
             {
-                "path":"assets/img/portafolio/packaging/philp3.png"
+                "path":"assets/img/portafolio/packaging/philp3.jpg"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/philp4.jpg"
             }
         ]
     },
@@ -50,10 +59,10 @@
         "pais": "Venezuela / Año: 2019",
         "carousel": [
             {
-                "path":"assets/img/portafolio/packaging/provolto1.png"
+                "path":"assets/img/portafolio/packaging/provolto1.jpg"
             },
             {
-                "path":"assets/img/portafolio/packaging/provolto2.png"
+                "path":"assets/img/portafolio/packaging/provolto2.jpg"
             }
         ]
     },
@@ -63,13 +72,25 @@
         "pais": "Miami / Año: 2020",
         "carousel": [
             {
-                "path":"assets/img/portafolio/packaging/sky1.png"
+                "path":"assets/img/portafolio/packaging/sky1.jpg"
             },
             {
-                "path":"assets/img/portafolio/packaging/sky2.png"
+                "path":"assets/img/portafolio/packaging/sky2.jpg"
             },
             {
-                "path":"assets/img/portafolio/packaging/sky3.png"
+                "path":"assets/img/portafolio/packaging/sky3.jpg"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/sky4.jpg"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/sky5.jpg"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/sky6.jpg"
+            },
+            {
+                "path":"assets/img/portafolio/packaging/sky7.jpg"
             }
         ]
     },
@@ -102,19 +123,6 @@
             },
             {
                 "path":"assets/img/portafolio/packaging/amedical3.png"
-            }
-        ]
-    },
-    {
-        "marca": "Bondy",
-        "sector": "Alimentos y Bebidas",
-        "pais": "Venezulea / Año: 2021",
-        "carousel": [
-            {
-                "path":"assets/img/portafolio/packaging/bondy1.png"
-            },
-            {
-                "path":"assets/img/portafolio/packaging/bondy2.png"
             }
         ]
     }

@@ -5,7 +5,8 @@
         "year": "2021",
         "description": "Rifel es una marca nacional de panadería y galletería Industrial dirigida a niños y jóvenes de Venezuela Fundada en 2007. En 2021 desarrollamos un proyecto de impulso 360 para la marca que incluyó:  Diseño de Empaques, diseño de catálogo de productos, diseño de material POP ygigantografía, campaña de marketing y social media.",
         "logo": "rifel/rifel-logo.png",
-        "wallpapper": "rifel/rifel-wallpapper.png",
+        "wallpapper": "rifel/rifel-wallpapper.jpg",
+        "wallpapper_mobile": "rifel/wallpapper-mobile.png",
         "cover": "rifel/marco.svg",
         "projects": [
             {
@@ -24,6 +25,17 @@
                             ],
                             "col": "col-4"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project1-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project1-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project1-image3.png"
+                    }
                 ]
             },
             {
@@ -43,6 +55,20 @@
                             ],
                             "col": "col-4"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project2-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project2-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project2-image3.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project2-image4.png"
+                    }
                 ]
             },
             {
@@ -70,6 +96,26 @@
                             ],
                             "col": "col-4"
                         }
+                ],
+                "carousel": [
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project3-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project3-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project3-image3.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project3-image4.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project3-image5.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/rifel/carousel/project3-image6.png"
+                    }
                 ]
             }
         ],
@@ -121,7 +167,8 @@
         "year": "2020 / 2021",
         "description": "Sky lubricantes es una marca nacional de producción y comercialización de productos de alta calidad para el sector industrial y automotriz venezolano fundada en 2004. En el 2020 desarrollamos de la mano de Ars Barquisimeto un proyecto de rebranding para esta marca que incluyó: Diseño de etiquetas y envases, diseño de catálogo de productos, desarrollo de web corporativa y de ecommerce, diseño de material POP, campaña de marketing y social media.",
         "logo": "sky/sky-logo.png",
-        "wallpapper": "sky/sky-wallpapper.png",
+        "wallpapper": "sky/sky-wallpapper.jpg",
+        "wallpapper_mobile": "sky/wallpapper-mobile.png",
         "cover": "sky/marco.svg",
         "projects": [
             {
@@ -141,6 +188,17 @@
                             ],
                             "col": "col-6"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project1-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project1-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project1-image3.png"
+                    }
                 ]
             },
             {
@@ -158,6 +216,38 @@
                             ],
                             "col": "col-6"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image3.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image4.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image5.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image6.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image7.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image8.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image9.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project2-image10.png"
+                    }
                 ]
             },
             {
@@ -176,6 +266,26 @@
                             ],
                             "col": "col-8"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project3-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project3-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project3-image3.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project3-image4.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project3-image5.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project3-image6.png"
+                    }
                 ]
             },
             {
@@ -193,6 +303,14 @@
                             ],
                             "col": "col-6"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project4-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project4-image2.png"
+                    }
                 ]
             },
             {
@@ -210,6 +328,14 @@
                             ],
                             "col": "col-7"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project5-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/sky/carousel/project5-image2.png"
+                    }
                 ]
             }
         ],
@@ -254,7 +380,8 @@
         "description": "KeyWorks es un coworking spaces ubicado en el corazón de la ciudad de Barquisimeto. Trabajamos con esta marca desde el momento cero, el proyecto incluyó: creación de naming; logotipo e identidad gráfica, concepto de negocio y branding, realizamos renders 3D de los espacios, participamos con los arquitectos en la decoración de interiores: diseñamos el mobiliario, textura de las paredes, parabanes, lockers y señalética del espacio. Actualmente, trabajamos en la creación y gestión de campañas para redes sociales del coworking.",
         "logo": "keyworks/keyworks-logo.png",
         "cover": "keyworks/marco.svg",
-        "wallpapper": "keyworks/keyworks-wallpapper.png",
+        "wallpapper": "keyworks/keyworks-wallpapper.jpg",
+        "wallpapper_mobile": "keyworks/wallpapper-mobile.png",
         "projects": [
             {
                 "title": "LOGOTIPO E IDENTIDAD GRÁFICA",
@@ -272,6 +399,11 @@
                             ],
                             "col": "col-7"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project1-image1.png"
+                    }
                 ]
             },
             {
@@ -293,6 +425,26 @@
                             ],
                             "col": "col-6"
                         }
+                ],
+                "carousel":[
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project2-image1.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project2-image2.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project2-image3.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project2-image4.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project2-image5.png"
+                    },
+                    {
+                        "path":"assets/img/portafolio/branding/keyworks/carousel/project2-image6.png"
+                    }
                 ],
                 "height": "700px"
             }

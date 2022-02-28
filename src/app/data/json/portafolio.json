@@ -4,21 +4,21 @@
        "title": "text_branding.svg",
        "maxWidth": "350px",
        "type": "image",
-       "img1": "branding1.png",
+       "img1": "branding1.jpg",
        "routerLink1": [
           "/",
           "portafolio",
           "branding",
           "rifel"
        ],
-       "img2": "branding2.png",
+       "img2": "branding2.jpg",
        "routerLink2": [
          "/",
          "portafolio",
          "branding",
          "keyworks"
       ],
-       "img3": "branding3.png",
+       "img3": "branding3.jpg",
        "routerLink3": [
          "/",
          "portafolio",

@@ -1,6 +1,7 @@
 
 <section id="brand">
-    <div class="wallpapper" style="background-image: url('assets/img/portafolio/branding/{{ brand.wallpapper }}');"></div>
+    <div class="wallpapper d-none d-lg-block" style="background-image: url('assets/img/portafolio/branding/{{ brand.wallpapper }}');"></div>
+    <div class="wallpapper d-block d-lg-none" style="background-image: url('assets/img/portafolio/branding/{{ brand.wallpapper_mobile }}');"></div>
     <div class="container mb-5">
         <div class="container-fluid p-5">
            
@@ -43,8 +44,8 @@
             </div>
 
             <div class="content mt-5" *ngFor="let project of brand.projects">
-                <div class="content-body" style="margin-top:50px;">
-                    <div class="row row-content p-0 m-0":style="height: {{ project.height }}">
+                <div class="content-body d-none d-lg-block" style="margin-top:50px;">
+                    <div class="row row-content p-0 m-0"  :style="height: {{ project.height }}">
                         <div class="{{ grids.col }}" *ngFor="let grids of project.row">
                             <div class="row" *ngFor="let grid of grids.grid" :style="height: {{ 100/grids.grid.length }}%">
                                 <div class="img" 
@@ -54,6 +55,8 @@
                         </div>
                     </div>
                 </div>
+                <carousel class="m-auto d-block d-lg-none" [arrowsOutside]="true" [cellsToShow]="1" [height]="200" [cellWidth]="350" [images]="project.carousel" [loop]="true" [autoplay]="true" style="position: relative; max-width: 350px; margin-top:0px !important;">
+                </carousel>
                 <div class="content-footer mt-2">
                     <p class="p-0 m-0">PROYECTO:</p>
                     <strong>{{ project.title}}</strong>

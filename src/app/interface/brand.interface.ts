@@ -5,7 +5,8 @@ export interface BrandInterface{
     description: string;
     logo: string;
     wallpapper: string;
-    routerLink: [],
+    wallpapper_mobile:string;
+    routerLink: [];
     projects?: BrandProjectInterface[];
     url : string;
     carousel: [];
@@ -17,6 +18,7 @@ export interface BrandProjectInterface{
     title: string;
     row: any[];
     height: string;
+    carousel: any[];
 }
 
 export interface BrandGridInterface{
